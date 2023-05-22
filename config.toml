@@ -1,0 +1,28 @@
+baseURL = "https://archive.dev00ps.com/"
+languageCode = "en-US"
+title = ""
+theme = "not_hago"
+publishDir = "docs"
+
+DefaultContentLanguage = "en"
+metaDataFormat = "yaml"
+googleAnalytics = "UA-XXXXXXXXX-X"
+paginate = 4
+
+
+[Params]
+  description = ""
+  subtitle = ""
+  logo = "/images/archive1.webp"
+  favicon = "/archive1.ico"
+  banner = "/images/archive2.webp"
+  comments = true
+
+[Author]
+  name = "gndpwnd"
+  website = "https://dev00ps.com"
+
+[outputs]
+    home = ["HTML", "JSON"]
+
+
